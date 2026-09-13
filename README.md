@@ -1,2 +1,2 @@
-# Nexa
-Real Time Chat App
+N E X A
+REAL TIME GROUP CHAT APP
