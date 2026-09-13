@@ -1,0 +1,14 @@
+{
+  "name": "Node.js Workspace",
+  "portsAttributes": {
+    "3000": {
+      "label": "Backend Server",
+      "onAutoForward": "openBrowser",
+      "visibility": "public"
+    },
+    "5173": {
+      "label": "Frontend Vite",
+      "visibility": "public"
+    }
+  }
+}
