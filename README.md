@@ -1,34 +1,41 @@
-NEXA - Real-Time Private Chat Space
+# NEXA - Real-Time Private Chat Space
+
 Nexa is a lightweight real-time chat application built with Node.js, Express, Socket.IO, and React (Vite).
 
-🛠️ Project Structure
-backend/: Node.js & Socket.IO server (Port 3000)
+## Project Overview & Setup
 
-frontend/: React + Vite UI client (Port 5173)
+### Structure
+* **backend/**: Node.js & Socket.IO server (Port 3000)
+* **frontend/**: React + Vite UI client (Port 5173)
 
-🚀 Getting Started
-1. Run the Backend
-Bash
-cd backend
-npm install
-node index.js
-Server will start at http://localhost:3000.
+### How to Run Locally
+1. **Backend**: Open terminal, run `cd backend && npm install && node index.js` (Server runs on http://localhost:3000).
+2. **Frontend**: Open a second terminal, run `cd frontend && npm install && npm run dev` (Client runs on http://localhost:5173).
 
-2. Run the Frontend
-Open a new terminal window:
+### How to Use
+1. Open the frontend URL in your browser.
+2. Enter your name and click **Enter Chat** to join.
+3. Start sending and receiving messages in real time!
 
-Bash
-cd frontend
-npm install
-npm run dev
-Client will start at http://localhost:5173.
+4. # NEXA - Real-Time Private Chat Space
 
-📖 Usage Instructions
-Open the frontend URL in your browser.
+Nexa is a lightweight real-time chat application built with Node.js, Express, Socket.IO, and React (Vite).
 
-Enter your name and click Enter Chat to join the room.
+## Project Overview & Setup
 
-Start sending real-time messages!
+### Structure
+* **backend/**: Node.js & Socket.IO server (Port 3000)
+* **frontend/**: React + Vite UI client (Port 5173)
 
-Frontend: Deployed on Vercel.com (Root Directory: frontend, Framework: Vite).
+### How to Run Locally
+1. **Backend**: Open terminal, run `cd backend && npm install && node index.js` (Server runs on http://localhost:3000).
+2. **Frontend**: Open a second terminal, run `cd frontend && npm install && npm run dev` (Client runs on http://localhost:5173).
 
+### How to Use
+1. Open the frontend URL in your browser.
+2. Enter your name and click **Enter Chat** to join.
+3. Start sending and receiving messages in real time!
+
+### Production Deployment
+* **Backend**: Hosted on Render.com (Root Directory: `backend`, Command: `node index.js`).
+* **Frontend**: Hosted on Vercel.com (Root Directory: `frontend`, Framework: Vite).
