@@ -35,7 +35,3 @@ Nexa is a lightweight real-time chat application built with Node.js, Express, So
 1. Open the frontend URL in your browser.
 2. Enter your name and click **Enter Chat** to join.
 3. Start sending and receiving messages in real time!
-
-### Production Deployment
-* **Backend**: Hosted on Render.com (Root Directory: `backend`, Command: `node index.js`).
-* **Frontend**: Hosted on Vercel.com (Root Directory: `frontend`, Framework: Vite).
